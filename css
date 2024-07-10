@@ -1,0 +1,65 @@
+/* styles.css */
+.card-img-circle-wrapper {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.card-img-circle {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card-body {
+  max-height: 334px;
+  overflow-y: auto;
+}
+
+#cardbody1 {
+  max-height: 370px;
+}
+
+.card-body3 {
+  max-height: 370px;
+  overflow-y: auto;
+}
+
+.fixed-header {
+  position: sticky;
+  top: 20px;
+  z-index: 1000;
+  background-color: #333;
+  width: 100%;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#relato-header {
+  top: 10px;
+}
+
+.ratio {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ratio img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-image {
+  max-width: 10%;
+  height: 1px;
+  width: auto;
+  max-height: 200px;
+}
